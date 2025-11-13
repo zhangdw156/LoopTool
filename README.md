@@ -34,12 +34,12 @@ Experiments show that our 8B model trained with LoopTool significantly surpasses
 
 ### 📊 Overall Performance
 
-<div align="center">
-  <img src="./figures/overall_results_bfcl.png" width="100%" />
+<div align="center" style="margin-top: 20px; margin-bottom: 20px;">
+  <img src="./figures/overall_results_bfcl.png" width="96%" />
 </div>
 
-<div align="center">
-  <img src="./figures/overall_results_acebench.png" width="100%" />
+<div align="center" style="margin-top: 20px; margin-bottom: 20px;">
+  <img src="./figures/overall_results_acebench.png" width="96%" />
 </div>
 
 We compare LoopTool-8B and LoopTool-32B with various representation models in [BFCL-v3](https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html) and [ACEBench](https://chenchen0103.github.io/ACEBench/). We adopt the official evaluation script and report the average accuracy across categories. On both BFCL-v3 and ACEBench leaderboards, LoopTool-8B achieves SOTA performance among all 8B-scale open-source models and exceeds several larger counterparts. LoopTool‑32B achieves the top position in BFCL‑v3, demonstrates the best performance among open‑source models in ACEBench, and ranks second overall, immediately following GPT‑4o.
