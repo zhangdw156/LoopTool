@@ -1,12 +1,22 @@
 <h1 align="center"> <img src="./figures/logo_LoopTool.png" width="270" style="vertical-align:middle;"/><br>Closing the Data–Training Loop for Robust LLM Tool Calls</a></h1>
 
-<div align="center"> 
-
+<!-- <div align="center"> 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2511.09148v1)
 [![Paper](https://img.shields.io/badge/Paper-Hugging%20Face-yellow?logo=huggingface)](https://huggingface.co/papers/2511.09148)
 [![License](https://img.shields.io/badge/LICENSE-MIT-green.svg)](https://opensource.org/licenses/MIT) 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
-</div>
+</div> -->
+
+<p align="center">
+<img src="./assets/arxiv.png" width="14px" style="display:inline;"> <a href="https://arxiv.org/abs/2511.09148" target="_blank">Arxiv(LoopTool)</a> ｜
+🤗 <a href="https://huggingface.co/papers/2511.09148" target="_blank">Paper(LoopTool)</a> ｜
+🤗 <a href="https://huggingface.co/zhuiguang-ning/LoopTool-8B" target="_blank">Models(LoopTool-8B)</a> ｜
+🤗 <a href="https://huggingface.co/zhuiguang-ning/LoopTool-32B" target="_blank">Models(LoopTool-32B)</a> 
+<p align="center">
+<p align="center">
+🤗 <a href="https://huggingface.co/datasets/zhuiguang-ning/LoopTool-2w" target="_blank">Dataset(LoopTool-2w)</a> |
+  <img src="./assets/weixin.png" width="14px" style="display:inline;"> <a href="https://www.jiqizhixin.com/articles/2025-11-19-9" target="_blank">机器之心</a> ｜
+<p align="center">
 
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 
@@ -14,10 +24,10 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&duration=3000&pause=1000&color=005DE3&center=true&vCenter=true&width=800&lines=Welcome+to+LoopTool;Closing the Data–Training Loop for Robust LLM Tool Calls;Powered+by+SJTU+Xiaohongshu+Inc." alt="Typing Animation" />
 </div> -->
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=20&duration=3000&pause=1000&color=005DE3&center=true&vCenter=true&width=800&lines=Welcome+to+LoopTool;Closing+the+Data-Training+Loop+for+Robust+LLM+Tool+Calls;Powered+by+SJTU+Xiaohongshu+Inc.
   " alt="Typing Animation" />
-</div>
+</div> -->
 
 ## 📣 Latest News
 - **[December 10, 2025]**: 📦 LoopTool-2w dataset is available on **[Hugging Face](https://huggingface.co/datasets/zhuiguang-ning/LoopTool-2w)**. The [LoopTool-32B](https://huggingface.co/zhuiguang-ning/LoopTool-32B) is also available.
