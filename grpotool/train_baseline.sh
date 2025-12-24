@@ -1,6 +1,6 @@
-export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
-export N_GPUS=8
-export ROLLOUT_TP_SIZE=8
+export CUDA_VISIBLE_DEVICES=0,1,2,3
+export N_GPUS=4
+export ROLLOUT_TP_SIZE=1
 # export VLLM_ATTENTION_BACKEND=XFORMERS
 
 export WITHLENGTH=0
@@ -23,15 +23,19 @@ export CLIP_RATIO_HIGH=0.28
 export TRAIN_BATCH_SIZE=256
 export VAL_BATCH_SIZE=256
 export LR=1e-6
-export STEPS_SAVE=90 # To Change
+export STEPS_SAVE=10 # To Change
 export EPOCHS=4
 export HYDRA_FULL_ERROR=1
 export GROUP_SIZE=16
-export DATA_DIR="xxxx" 
+export DATA_DIR="/dfs/data/datasets/LoopTool-23k" 
 export TRAIN_FILE=$DATA_DIR/train.parquet  # To Change
 export VAL_FILE=$DATA_DIR/test.parquet
-export BASE_MODEL="Qwen/Qwen3-8B"
-export PROJECT_NAME="Grpo_Tool"
-export EXPERIMENT_NAME="xxxx" # e.g., "grpo-qwen2.5-3b"  # To Change
+export BASE_MODEL="/dfs/data/models/Qwen3-4B"
+export PROJECT_NAME="LoopTool"
+export EXPERIMENT_NAME="modelfactory-qwen-baseline-v1" # e.g., "grpo-qwen2.5-3b"  # To Change
 
-bash ./examples/grpo_trainer/grpo_qwen_eightgpus.sh
+export RAY_TMP_DIR="/dfs/data/tmp/ray"
+export RAY_tmp_dir="$RAY_TMP_DIR"
+export TMPDIR="$RAY_TMP_DIR"
+
+bash grpo_qwen.sh

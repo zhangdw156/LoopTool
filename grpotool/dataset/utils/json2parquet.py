@@ -14,13 +14,13 @@ np.random.seed(2025)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--local_dir', default='xxx')
+    parser.add_argument('--local_dir', default='/root/datasets/LoopTool-23k')
     args = parser.parse_args()
     
     data_source = 'toolace'
 
     # Load dataset
-    dataset = json.load(open(os.path.join(args.local_dir, "xxx.json"), "r"))
+    dataset = json.load(open(os.path.join(args.local_dir, "LoopTool_grpo_training_data.json"), "r"))
     # Shuffle dataset
     np.random.shuffle(dataset)
 
